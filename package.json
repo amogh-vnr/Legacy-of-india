@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "NODE_OPTIONS=--max-old-space-size=4096 vite build",
+    "build": "npx vite build",
     "preview": "vite preview",
-    "lint": "echo \"No linter configured\"",
-    "vercel-build": "npm run build"
+    "lint": "echo \"No linter configured\""
   },
   "dependencies": {
     "framer-motion": "^11.2.10",
