@@ -20,7 +20,7 @@ import {
   CalendarDays, // Added CalendarDays for Diwali date
   X // Added X for close button
 } from 'lucide-react';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs.jsx';
 import { Button } from '@/components/ui/button';
 import Mascot from '../Components/NewMascot';
 
