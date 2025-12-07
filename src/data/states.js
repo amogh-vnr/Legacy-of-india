@@ -1,0 +1,81 @@
+export const states = [
+  {
+    id: 'rajasthan',
+    name: 'Rajasthan',
+    type: 'state',
+    capital: 'Jaipur',
+    description: 'Land of kings, desert dunes, majestic forts, and vibrant folk culture.',
+    languages: ['Hindi', 'Rajasthani', 'English'],
+    famous_foods: ['Dal Bati Churma', 'Ghewar', 'Laal Maas'],
+    festivals: ['Diwali', 'Holi', 'Desert Festival', 'Teej'],
+    cultural_highlights: ['Ghoomar dance', 'Folk music with Sarangi', 'Colorful turbans'],
+    fun_facts: [
+      'Home to the Thar Desert',
+      'Jaipur is called the Pink City',
+      'Jaigarh Fort has the world\'s largest cannon on wheels'
+    ],
+    historical_significance: 'Seat of Rajputana royalty with legendary forts and palaces.',
+    famous_landmarks: ['Hawa Mahal', 'Amber Fort', 'Mehrangarh Fort'],
+    image_url: 'https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    id: 'kerala',
+    name: 'Kerala',
+    type: 'state',
+    capital: 'Thiruvananthapuram',
+    description: "God's own country with serene backwaters, spices, and lush greens.",
+    languages: ['Malayalam', 'English'],
+    famous_foods: ['Appam', 'Puttu', 'Sadya'],
+    festivals: ['Onam', 'Vishu'],
+    cultural_highlights: ['Kathakali', 'Mohiniyattam', 'Boat races'],
+    fun_facts: ['Highest literacy rate', 'Hub of spices', 'Houseboat stays in Alleppey'],
+    historical_significance: 'Ancient spice trade hub connected to Romans and Arabs.',
+    famous_landmarks: ['Alleppey backwaters', 'Athirappilly Falls'],
+    image_url: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    id: 'maharashtra',
+    name: 'Maharashtra',
+    type: 'state',
+    capital: 'Mumbai',
+    description: 'Financial powerhouse with Bollywood, forts, and coastal cuisine.',
+    languages: ['Marathi', 'Hindi', 'English'],
+    famous_foods: ['Vada Pav', 'Pav Bhaji', 'Modak'],
+    festivals: ['Ganesh Chaturthi', 'Gudi Padwa'],
+    cultural_highlights: ['Lavani dance', 'Warli art'],
+    fun_facts: ['Gateway of India landmark', 'Ajanta & Ellora caves are UNESCO sites'],
+    historical_significance: 'Maratha empire legacy and colonial-era trading ports.',
+    famous_landmarks: ['Gateway of India', 'Ajanta Caves', 'Marine Drive'],
+    image_url: 'https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    id: 'punjab',
+    name: 'Punjab',
+    type: 'state',
+    capital: 'Chandigarh',
+    description: 'Land of five rivers, bhangra beats, and golden wheat fields.',
+    languages: ['Punjabi', 'Hindi', 'English'],
+    famous_foods: ['Makki di Roti', 'Sarson da Saag', 'Lassi'],
+    festivals: ['Baisakhi', 'Lohri'],
+    cultural_highlights: ['Bhangra', 'Giddha', 'Punjabi folk music'],
+    fun_facts: ['Golden Temple serves free meals to thousands daily'],
+    historical_significance: 'Heart of Sikh history and India\'s Green Revolution.',
+    famous_landmarks: ['Golden Temple', 'Wagah Border'],
+    image_url: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=800&q=80'
+  },
+  {
+    id: 'goa',
+    name: 'Goa',
+    type: 'state',
+    capital: 'Panaji',
+    description: 'Sunny beaches, Portuguese heritage, and laid-back vibes.',
+    languages: ['Konkani', 'English', 'Hindi'],
+    famous_foods: ['Fish Curry', 'Bebinca', 'Prawn Balchao'],
+    festivals: ['Carnival', 'Shigmo'],
+    cultural_highlights: ['Fado music', 'Latin quarters architecture'],
+    fun_facts: ['Smallest state by area', 'Known for spice plantations'],
+    historical_significance: 'Former Portuguese colony with unique Indo-European blend.',
+    famous_landmarks: ['Basilica of Bom Jesus', 'Calangute Beach'],
+    image_url: 'https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80'
+  }
+];
